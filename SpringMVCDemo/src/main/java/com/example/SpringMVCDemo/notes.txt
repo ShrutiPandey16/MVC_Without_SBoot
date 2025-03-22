@@ -1,1 +1,5 @@
-*	
+*   For different reqs we have different controllers. To navigate to diff controllers we have "Front Controller". So in between client and 
+    diff controllers sits a FC, who then redirects to diff reqs. This FC is called "Dispatcher Servlet". 
+
+*   Whenever spring is ran, spring always calls "web.xml" file where we need to mention two tags : 1. servlet 2. servlet-mapping.
+    Inside servlet-mapping mention the url pattern. 
